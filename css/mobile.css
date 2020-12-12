@@ -1,0 +1,186 @@
+/*
+ * The css for mobile
+ */
+
+body {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+header {
+    border-bottom: black 2px solid;
+}
+
+header * {
+    display: block;
+    text-align: center;
+}
+
+header * {
+    font-size: 3vw;
+    margin-bottom: 0.5vh;
+}
+
+header *:nth-child(1) {
+    font-size: 7.5vw;
+    height: 7.5vw;
+    margin: 0.5vh 0 0;
+}
+
+nav {
+    display: none;
+}
+
+main {
+
+}
+
+footer {
+
+}
+
+footer * {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.modal {
+    width: 80%;
+}
+
+#slideshow {
+    width: 95vw;
+}
+
+#slideshowSelector {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+.divider {
+    height: 50vh;
+    z-index: -1;
+}
+
+.info-space {
+    min-height: 5vh;
+}
+
+#details {
+    font-size: 3vw;
+}
+
+#priceWrapper {
+    margin: 10px;
+}
+
+#priceTable {
+    text-align: center;
+    border-collapse: collapse;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+#priceTable th, #priceTable td {
+    text-align: center;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+#calendars {
+    width: 100%;
+    margin: 10px;
+}
+
+#calendarControls {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#calendarControls .select-wrapper {
+    width: 30vw;
+}
+
+.calendar-wrapper.first {
+    width: 100%;
+    margin: 0;
+}
+
+.calendar-wrapper.first .calendar-title {
+    display: none;
+}
+
+.calendar-wrapper.second {
+    display: none;
+}
+
+.calendar .selected {
+    background: lightgray;
+}
+
+#calendarBookingWrapper {
+    display: block;
+}
+
+#calendarContainer {
+    width: 100%;
+}
+
+#booking {
+    width: 100%;
+    margin-top: 3vh;
+}
+
+#bookThroughContainer {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#bookThroughTitle {
+    font-size: 3vh;
+}
+
+.book-through-item {
+    width: 50vw;
+    height: 6vh;
+}
+
+.book-through-item:after {
+    display: none;
+}
+
+#holidayHouses {
+    background-size: 49vw 5vh;
+}
+
+#bookaBach {
+    line-height: 6vh;
+}
+
+#calculation {
+    display: none;
+}
+
+#mapSpace {
+    height: 70vh;
+    position: relative;
+}
+
+#mapWrapper {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+}

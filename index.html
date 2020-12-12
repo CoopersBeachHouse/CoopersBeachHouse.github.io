@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="A nice beach house in Coopers Beach, New Zealand">
+    <meta name="google-site-verification" content="E8kIun2kq-5gnLWc6OT5TzJnvfje1u03yJj5qj66yhg"/>
+    <title>The Pohutukawa Beach House</title>
+
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/slideshow.css">
+    <link rel="stylesheet" href="css/features.css">
+    <link rel="stylesheet" href="css/calendar.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/prices.css">
+    <link rel="stylesheet" media="screen and (min-width: 700px)" href="css/desktop.css">
+    <link rel="stylesheet" media="only screen and (max-width: 700px" href="css/mobile.css">
+
+    <script src="js/slideshow.js"></script>
+    <script src="js/calendar.js"></script>
+    <script src="js/map.js"></script>
+    <script src="rates.js"></script>
+    <script src="js/rates.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/util.js"></script>
+    <script src="blocked.js"></script>
+</head>
+<body>
+<header>
+    <h1>Pohutukawa Beach House</h1>
+    <h1>Welcome to our Coopers Beach House. You are invited to book our holiday house.</h1>
+    <h1>30 Bayside Drive, Coopers Beach, Doubtless Bay, Northland</h1>
+</header>
+
+<main>
+    <div id="slideshowContainer">
+        <div id="slideshow">
+            <div id="slideshowImages">
+                <div class="slideshow-item current"><img src="img/slideshow/01.jpg" srcset="img/slideshow/01-400.jpg 400w, img/slideshow/01-500.jpg 500w, img/slideshow/01-1000.jpg 1000w, img/slideshow/01-1920.jpg 1920w" sizes="50vw" alt="Outside"/></div>
+                <div class="slideshow-item"><img src="img/slideshow/02.jpg" srcset="img/slideshow/02-400.jpg 400w, img/slideshow/02-500.jpg 500w, img/slideshow/02-1000.jpg 1000w, img/slideshow/02-1920.jpg 1920w" sizes="50vw" alt="Outside"/></div>
+                <div class="slideshow-item"><img src="img/slideshow/03.jpg" srcset="img/slideshow/03-400.jpg 400w, img/slideshow/03-500.jpg 500w, img/slideshow/03-1000.jpg 1000w, img/slideshow/03-1920.jpg 1920w" sizes="50vw" alt="Dining table"/></div>
+                <div class="slideshow-item"><img src="img/slideshow/04.jpg" srcset="img/slideshow/04-400.jpg 400w, img/slideshow/04-500.jpg 500w, img/slideshow/04-1000.jpg 1000w, img/slideshow/04-1920.jpg 1920w" sizes="50vw" alt="Living room"/></div>
+                <div class="slideshow-item"><img src="img/slideshow/05.jpg" srcset="img/slideshow/05-400.jpg 400w, img/slideshow/05-500.jpg 500w, img/slideshow/05-1000.jpg 1000w, img/slideshow/05-1920.jpg 1920w" sizes="50vw" alt="Living room"/></div>
+                <div class="slideshow-item"><img src="img/slideshow/06.jpg" srcset="img/slideshow/06-400.jpg 400w, img/slideshow/06-500.jpg 500w, img/slideshow/06-1000.jpg 1000w, img/slideshow/06-1920.jpg 1920w" sizes="50vw" alt="Kitchen"/></div>
+                <div class="slideshow-item"><img src="img/slideshow/07.jpg" srcset="img/slideshow/07-400.jpg 400w, img/slideshow/07-500.jpg 500w, img/slideshow/07-1000.jpg 1000w, img/slideshow/07-1920.jpg 1920w" sizes="50vw" alt="Kitchen"/></div>
+                <div class="slideshow-item"><img src="img/slideshow/08.jpg" srcset="img/slideshow/08-400.jpg 400w, img/slideshow/08-500.jpg 500w, img/slideshow/08-1000.jpg 1000w, img/slideshow/08-1920.jpg 1920w" sizes="50vw" alt="Kitchen"/></div>
+                <div class="slideshow-item"><img src="img/slideshow/09.jpg" srcset="img/slideshow/09-400.jpg 400w, img/slideshow/09-500.jpg 500w, img/slideshow/09-1000.jpg 1000w, img/slideshow/09-1920.jpg 1920w" sizes="50vw" alt="Master bedroom"/></div>
+                <div class="slideshow-item"><img src="img/slideshow/10.jpg" srcset="img/slideshow/10-400.jpg 400w, img/slideshow/10-500.jpg 500w, img/slideshow/10-1000.jpg 1000w, img/slideshow/10-1920.jpg 1920w" sizes="50vw" alt="Master bedroom"/></div>
+                <div class="slideshow-item"><img src="img/slideshow/11.jpg" srcset="img/slideshow/11-400.jpg 400w, img/slideshow/11-500.jpg 500w, img/slideshow/11-1000.jpg 1000w, img/slideshow/11-1920.jpg 1920w" sizes="50vw" alt="Second bedroom"/></div>
+                <div class="slideshow-item"><img src="img/slideshow/13.jpg" srcset="img/slideshow/13-400.jpg 400w, img/slideshow/13-500.jpg 500w, img/slideshow/13-1000.jpg 1000w, img/slideshow/13-1920.jpg 1920w" sizes="50vw" alt="Bathroom"/></div>
+                <div class="slideshow-item"><img src="img/slideshow/14.jpg" srcset="img/slideshow/14-400.jpg 400w, img/slideshow/14-500.jpg 500w, img/slideshow/14-1000.jpg 1000w, img/slideshow/14-1920.jpg 1920w" sizes="50vw" alt="Third bedroom"/></div>
+                <div class="slideshow-item"><img src="img/slideshow/15.jpg" srcset="img/slideshow/15-400.jpg 400w, img/slideshow/15-500.jpg 500w, img/slideshow/15-1000.jpg 1000w, img/slideshow/15-1920.jpg 1920w" sizes="50vw" alt="Second bathroom"/></div>
+                <div class="slideshow-item"><img src="img/slideshow/16.jpg" srcset="img/slideshow/16-400.jpg 400w, img/slideshow/16-500.jpg 500w, img/slideshow/16-1000.jpg 1000w, img/slideshow/16-1920.jpg 1920w" sizes="50vw" alt="Second bathroom"/></div>
+                <div class="slideshow-item"><img src="img/slideshow/17.jpg" srcset="img/slideshow/17-400.jpg 400w, img/slideshow/17-500.jpg 500w, img/slideshow/17-1000.jpg 1000w, img/slideshow/17-1920.jpg 1920w" sizes="50vw" alt="Entrance"/></div>
+                <div class="slideshow-item"><img src="img/slideshow/18.jpg" srcset="img/slideshow/18-400.jpg 400w, img/slideshow/18-500.jpg 500w, img/slideshow/18-1000.jpg 1000w, img/slideshow/18-1920.jpg 1920w" sizes="50vw" alt="Garden"/></div>
+                <div class="slideshow-item"><img src="img/slideshow/19.jpg" srcset="img/slideshow/19-400.jpg 400w, img/slideshow/19-500.jpg 500w, img/slideshow/19-1000.jpg 1000w, img/slideshow/19-1920.jpg 1920w" sizes="50vw" alt="To the beach"/></div>
+                <div class="slideshow-item"><img src="img/slideshow/20.jpg" srcset="img/slideshow/20-400.jpg 400w, img/slideshow/20-500.jpg 500w, img/slideshow/20-1000.jpg 1000w, img/slideshow/20-1920.jpg 1920w" sizes="50vw" alt="To the beach"/></div>
+
+                <div id="slideshowPrevNext">
+                    <span id="slideshowPrev" class="slideshow-control" onclick="prevSlide()">&#10094;</span>
+                    <span id="slideshowNext" class="slideshow-control" onclick="nextSlide()">&#10095;</span>
+                </div>
+            </div>
+
+            <div id="slideshowSelector">
+                <img src="img/slideshow/01-100.jpg" alt="Outside" class="selected" onclick="setSlide(0)"/>
+                <img src="img/slideshow/02-100.jpg" alt="Outside" onclick="setSlide(1)"/>
+                <img src="img/slideshow/03-100.jpg" alt="Deck" onclick="setSlide(2)"/>
+                <img src="img/slideshow/04-100.jpg" alt="Kitchen" onclick="setSlide(3)"/>
+                <img src="img/slideshow/05-100.jpg" alt="Dining table" onclick="setSlide(4)"/>
+                <img src="img/slideshow/06-100.jpg" alt="Living room" onclick="setSlide(5)"/>
+                <img src="img/slideshow/07-100.jpg" alt="Deck and kitchen" onclick="setSlide(6)"/>
+                <img src="img/slideshow/08-100.jpg" alt="Bedroom" onclick="setSlide(7)"/>
+                <img src="img/slideshow/09-100.jpg" alt="Master bedroom" onclick="setSlide(8)"/>
+                <img src="img/slideshow/10-100.jpg" alt="Master bedroom" onclick="setSlide(9)"/>
+                <img src="img/slideshow/11-100.jpg" alt="Entrance" onclick="setSlide(10)"/>
+                <img src="img/slideshow/12-100.jpg" alt="Entrance" onclick="setSlide(11)"/>
+                <img src="img/slideshow/13-100.jpg" alt="Entrance" onclick="setSlide(12)"/>
+                <img src="img/slideshow/14-100.jpg" alt="Entrance" onclick="setSlide(13)"/>
+                <img src="img/slideshow/15-100.jpg" alt="Entrance" onclick="setSlide(14)"/>
+                <img src="img/slideshow/16-100.jpg" alt="Entrance" onclick="setSlide(15)"/>
+                <img src="img/slideshow/17-100.jpg" alt="Entrance" onclick="setSlide(16)"/>
+                <img src="img/slideshow/18-100.jpg" alt="Entrance" onclick="setSlide(17)"/>
+                <img src="img/slideshow/19-100.jpg" alt="Entrance" onclick="setSlide(18)"/>
+                <img src="img/slideshow/20-100.jpg" alt="Entrance" onclick="setSlide(19)"/>
+            </div>
+        </div>
+    </div>
+
+    <div class="divider first"></div>
+
+    <div class="info-space" id="info">
+        <div id="basicInfos">
+            <div class="basic-info">
+                <span class="basic-info-number">3</span>
+                <span class="basic-info-text">Bedrooms</span>
+            </div>
+            <div class="basic-info">
+                <span class="basic-info-number">5</span>
+                <span class="basic-info-text">Max Guests</span>
+            </div>
+            <div class="basic-info">
+                <span class="basic-info-number">2</span>
+                <span class="basic-info-text">Bathrooms</span>
+            </div>
+        </div>
+        <div id="details">
+            <ul class="details-column" id="detailsLeft">
+                <li>BBQ</li>
+                <li>Dishwasher</li>
+                <li>Freezer</li>
+                <li>Fridge</li>
+                <li>Ice Cube Maker</li>
+                <li>Oven</li>
+                <li>Induction Cooking</li>
+            </ul>
+            <ul class="details-column" id="detailsMiddle">
+                <li>Toaster</li>
+                <li>Bluetooth Speaker</li>
+                <li>Sky TV</li>
+                <li>Washing Machine</li>
+                <li>Wifi</li>
+                <li>Iron</li>
+                <li>Clothes Line</li>
+            </ul>
+            <ul class="details-column" id="detailsRight">
+                <li>Cellphone Coverage</li>
+                <li>Cleaning Equipment</li>
+                <li>Outdoor Shower</li>
+                <li>Outdoor Furniture</li>
+                <li>Garage</li>
+                <li>3 Kayaks</li>
+                <li>Boogie Boards</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="divider second"></div>
+
+    <div class="info-space" id="prices">
+        <div id="priceWrapper">
+            <table id="priceTable">
+                <thead>
+                    <tr class="heading-row">
+                        <th class="date-range">Date Range</th>
+                        <th class="rate">Rates</th>
+                        <th class="extra-guests">Extra Guests</th>
+                        <th class="minimum-stay">Minimum Stay</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                <tr class="body-row">
+                    <td class="date-range">
+                        <div class="wrapper"><span>8 Jan</span><span>-</span><span>28 Feb</span></div>
+                    </td>
+                    <td class="rate">$300</td>
+                    <td class="extra-guests">$20</td>
+                    <td class="minimum-stay">5</td>
+                </tr>
+                <tr class="body-row">
+                    <td class="date-range">
+                        <div class="wrapper"><span>1 Mar</span><span>-</span><span>30 Apr</span></div>
+                    </td>
+                    <td class="rate">$270</td>
+                    <td class="extra-guests">$20</td>
+                    <td class="minimum-stay">4</td>
+                </tr>
+                <tr class="body-row">
+                    <td class="date-range">
+                        <div class="wrapper"><span>1 Oct</span><span>-</span><span>19 Dec</span></div>
+                    </td>
+                    <td class="rate">$270</td>
+                    <td class="extra-guests">$20</td>
+                    <td class="minimum-stay">3</td>
+                </tr>
+                <tr class="body-row">
+                    <td class="date-range">
+                        <div class="wrapper"><span>20 Dec</span><span>-</span><span>7 Jan</span></div>
+                    </td>
+                    <td class="rate">$400</td>
+                    <td class="extra-guests">$20</td>
+                    <td class="minimum-stay">5</td>
+                </tr>
+                <tr class="body-row">
+                    <td class="date-range">
+                        <div class="wrapper"><span>1 May</span><span>-</span><span>30 Sep</span></div>
+                    </td>
+                    <td class="rate">closed</td>
+                    <td class="extra-guests">closed</td>
+                    <td class="minimum-stay">closed</td>
+                </tr>
+                </tbody>
+            </table>
+
+            <span id="priceTwoGuests">Prices are for 2 guests per night</span>
+        </div>
+    </div>
+
+    <div class="divider third"></div>
+
+    <div class="info-space" id="calendar">
+        <div id="calendarInner">
+            <div id="calendarControls">
+                <div id="calendarPrev" class="calendar-control" style="opacity: 0; cursor: default;"><span>&#10094;</span></div>
+                <div class="select-wrapper">
+                    <select id="chooseMonth">
+
+                    </select>
+                </div>
+                <div id="calendarNext" class="calendar-control"><span>&#10095;</span></div>
+            </div>
+            <div id="calendarBookingWrapper">
+                <div id="calendarContainer">
+                    <div class="calendar-wrapper first"></div>
+                    <div class="calendar-wrapper second"></div>
+                    <div id="calendarInfo">
+                        <span class="color"></span>
+                        <span>Booked</span>
+                    </div>
+                </div>
+                <div id="booking">
+                    <!--<div id="calculation">
+                        <div id="calcSteps" class="empty"></div>
+                        <div id="total">Total: 0$</div>
+                    </div>-->
+                    <div id="bookThroughTitle">Book through</div>
+                    <div id="bookThroughContainer">
+                        <a href="https://www.holidayhouses.co.nz/listing/74516" class="book-through-item" id="holidayHouses" target="_blank" rel="noopener noreferrer"></a>
+                        <a href="https://www.bookabach.co.nz/holiday-accommodation/p7933533?noDates=true" class="book-through-item" id="bookaBach" target="_blank" rel="noopener noreferrer"><span>booka</span><span>bach</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="divider fourth"></div>
+
+    <div class="info-space" id="mapSpace">
+        <div id="mapWrapper">
+            <div id="map"></div>
+        </div>
+    </div>
+
+    <div class="divider fifth"></div>
+</main>
+
+<footer>
+    <span onclick="openModal('#disclaimerModal')">Disclaimer</span>
+    <span onclick="openModal('#legalModal')">Legal Notice/Impressum</span>
+    <span onclick="openModal('#privacyModal')">Privacy Policy/Datenschutzerklärung</span>
+</footer>
+
+<div id="modals">
+    <div id="disclaimerModal" class="modal-container">
+        <div class="modal">
+            <div class="modal-title-bar">
+                <div class="select-wrapper language-select-wrapper">
+                    <select class="language-select">
+                        <option value="en">English</option>
+                        <option value="de">German</option>
+                    </select>
+                </div>
+                <span class="modal-title">Disclaimer</span>
+                <span class="modal-close">&times;</span>
+            </div>
+            <div class="modal-content en">
+                <span class="section-title">Copyright</span>
+                <p>The contents and works on these pages created by the site operators are subject to German copyright law. Duplication, processing, distribution and any form of commercialization of such material beyond the scope of the copyright law shall require the prior written consent of its respective author or creator. Downloads and copies of these pages are only permitted for private, non-commercial use. Insofar as the content on this site was not created by the operator, the copyrights of third parties are respected. In particular, contents of third parties are marked as such. Should you nevertheless become aware of a copyright infringement, please inform us accordingly. As soon as we become aware of any infringements, we will remove such content immediately.</p>
+                <span class="translate">Translated with www.DeepL.com/Translator</span>
+            </div>
+
+            <div class="modal-content de">
+                <span class="section-title">Urheberrecht</span>
+                <p>Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="legalModal" class="modal-container">
+        <div class="modal">
+            <div class="modal-title-bar">
+                <div class="select-wrapper language-select-wrapper">
+                    <select class="language-select">
+                        <option value="en">English</option>
+                        <option value="de">German</option>
+                    </select>
+                </div>
+                <span class="modal-title en">Legal Notice</span>
+                <span class="modal-title de">Impressum</span>
+                <span class="modal-close">&times;</span>
+            </div>
+            <div class="modal-content">
+                <ul>
+                    <li>Steffen Steudle</li>
+                    <li>Lena-Christ-Str. 11</li>
+                    <li>86529 Schrobenhausen</li>
+                    <li>Germany/Deutschland</li>
+                    <li id="phoneNr" style="cursor: pointer;">Click to view</li>
+                    <li id="email" style="cursor: pointer;">Click to view</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="privacyModal" class="modal-container">
+        <div class="modal">
+            <div class="modal-title-bar">
+                <div class="select-wrapper language-select-wrapper">
+                    <select class="language-select">
+                        <option value="en">English</option>
+                        <option value="de">German</option>
+                    </select>
+                </div>
+                <span class="modal-title en">Privacy Policy</span>
+                <span class="modal-title de">Datenschutzerklärung</span>
+                <span class="modal-close">&times;</span>
+            </div>
+            <div class="modal-content en">
+                <p>The use of our website is generally possible without providing personal data. Insofar as personal data (e.g. name, address or e-mail addresses) is collected on our pages, this is always done on a voluntary basis as far as possible. This data will not be passed on to third parties without your express consent. We would like to point out that data transmission on the Internet (e.g. communication by e-mail) can be subject to security gaps. A complete protection of the data against access by third parties is not possible. The use of contact data published within the scope of the legal notice by third parties to send unsolicited advertising and information materials is hereby expressly prohibited. The operators of this website expressly reserve the right to take legal action against unsolicited mailing or e-mailing of spam and other similar advertising materials.</p>
+                <p>Our website uses Mapbox Tiles to display interactive maps. The Mapbox Tiles API is a map service provided by Mapbox Inc. (Mapbox). By using the Mapbox Tiles API, information about your use of this website, including your IP address, may be transferred to Mapbox in the United States.
+
+                    When you access a page that contains Mapbox Tiles maps, your browser establishes a direct connection with Mapbox's servers. Mapbox transfers the map content directly to your browser and integrates it into the website. Therefore, we have no control over the amount of data Mapbox collects in this way.
+
+                    If you do not want Mapbox to collect, process or use data about you via our website, you can deactivate JavaScript in your browser settings. In this case, however, you cannot use the map display.
+
+                    For more information about the purpose and scope of the data collection and the further processing and use of the data by Mapbox, your rights in this regard and the settings you can make to protect your privacy, please refer to Mapbox's privacy policy at https://www.mapbox.com/privacy/. It states, among other things, that the IP address of the visitor, the address of the page visited, the date and time and the pages accessed are stored. Mapbox states that it uses this information solely to improve the service provided for diagnostic and analytical purposes. Mapbox does not share personal information with third parties.
+
+                    You also have the ability to prevent Mapbox from accepting cookies by disabling third party cookies in your browser settings.</p>
+                <span class="translate">Translated with www.DeepL.com/Translator</span>
+            </div>
+
+            <div class="modal-content de">
+                <p>Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder E-Mail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben. Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich. Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor.</p>
+                <p>Unsere Website nutzt Mapbox Tiles zur Darstellung interaktiver Karten. Die Mapbox Tiles API ist ein Kartendienst von Mapbox Inc. (Mapbox). Durch die Nutzung der Mapbox Tiles API können Informationen über die Benutzung dieser Website einschließlich Ihrer IP-Adresse an Mapbox in den USA übertragen werden.
+
+                    Wenn Sie eine Seite aufrufen, die Mapbox Tiles Karten enthält, baut Ihr Browser eine direkte Verbindung mit den Servern von Mapbox auf. Der Karteninhalt wird von Mapbox direkt an Ihren Browser übermittelt und von diesem in die Website eingebunden. Daher haben wir keinen Einfluss auf den Umfang der auf diese Weise von Mapbox erhobenen Daten.
+
+                    Wenn Sie nicht möchten, dass Mapbox über unseren Internetauftritt Daten über Sie erhebt, verarbeitet oder nutzt, können Sie in Ihren Browsereinstellungen JavaScript deaktivieren. In diesem Fall können Sie die Kartenanzeige jedoch nicht nutzen.
+
+                    Weitere Informationen über den Zweck und den Umfang der Datenerhebung sowie die weitere Verarbeitung und Nutzung der Daten durch Mapbox, Ihre diesbezüglichen Rechte sowie Einstellungsmöglichkeiten zum Schutz Ihrer Privatsphäre entnehmen Sie bitte den Datenschutzhinweisen von Mapbox unter https://www.mapbox.com/privacy/. Dort steht unter Anderem, dass die IP-Adresse des Besuchenden, die Adresse der besuchten Seite, Datum und Uhrzeit und die Seiten, auf die zugegriffen werden, gespeichert werden. Diese Informationen verwendet Mapbox nach eigenen Angaben ausschließlich zur Verbesserung des zur Verfügung gestellten Dienstes für Diagnose- und Analysezwecke. Persönliche Daten gibt Mapbox nicht an Dritte weiter.
+
+                    Außerdem haben Sie die Möglichkeit Cookies von Mapbox zu verhindern, indem Sie Cookies Dritter in Ihren Browser-Einstellungen deaktivieren.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<link rel="stylesheet" href="css/images.css">
+
+<!--<script>
+    let script = document.createElement("script");
+
+    if(window.location.protocol === "https:") {
+        script.src = "https://cdn.date-fns.org/v2.0.0-alpha0/date_fns.min.js";
+    } else {
+        script.src = "http://cdn.date-fns.org/v2.0.0-alpha0/date_fns.min.js";
+    }
+    script.onload = function () {
+        dateFns.isToday(new Date());
+        generateCalendars();
+        convertRates();
+    };
+
+    document.body.appendChild(script);
+</script>-->
+
+<script src="js/date_fns.min.js"></script>
+
+<script src='https://api.mapbox.com/mapbox.js/v3.2.0/mapbox.js'></script>
+<link href='https://api.mapbox.com/mapbox.js/v3.2.0/mapbox.css' rel='stylesheet'/>
+
+<script src="js/layout.engine.min.js"></script>
+
+<script>
+    if(layoutEngine.vendor === "ie") {
+        document.body.innerHTML = "Internet Explorer is not supported! Please use a newer browser like Google Chrome (https://www.google.com/chrome/) or Mozilla Firefox (https://www.mozilla.org/en-US/firefox/new/)";
+    }
+
+    if(layoutEngine.vendor === "opera" && layoutEngine.version === "mini") {
+        document.body.innerHTML = "Opera Mini is not supported! Please use another browser";
+    }
+</script>
+
+</body>
+</html>

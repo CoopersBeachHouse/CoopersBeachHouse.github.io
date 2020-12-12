@@ -1,0 +1,36 @@
+/*
+ * The css for the feature list
+ */
+
+#basicInfos {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.basic-info {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.basic-info span {
+    text-align: center;
+}
+
+.basic-info-number {
+    font-size: 5vh;
+}
+
+#details {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.details-column {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,123 @@
+/*
+ * The css for desktop
+ */
+
+body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+header {
+    font-size: 20px;
+    height: 11vh;
+    border-bottom: black 2px solid;
+}
+
+header * {
+    display: block;
+    text-align: center;
+    height: 2vh;
+    margin: 0.3vh 0 0;
+    font-size: 2vh;
+}
+
+header *:nth-child(1) {
+    height: 5vh;
+    font-size: 5vh;
+    margin: 0;
+}
+
+main {
+
+}
+
+footer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    /*height: 10vh;*/
+}
+
+footer * {
+    cursor: pointer;
+    font-size: 20px;
+    margin: 0.3vh 0 0.3vh 0;
+    width: 30%;
+    text-align: center;
+}
+
+#menu {
+    list-style: none;
+    margin: 0;
+    font-size: 1.7vw;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#menu li {
+    cursor: pointer;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#menu li:hover {
+    background: #bebebe;
+    transition: background-color 0.2s linear;
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+    width: 100%;
+}
+
+#slideshow {
+    width: 50vw;
+}
+
+.divider {
+    height: 50vh;
+    z-index: -1;
+}
+
+.info-space {
+    min-height: 5vh;
+}
+
+#prices {
+
+}
+
+#priceWrapper {
+    margin: 10px;
+}
+
+#rates {
+    height: 42vh;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+#mapSpace {
+    height: 70vh;
+    position: relative;
+}
+
+#mapWrapper {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+
+

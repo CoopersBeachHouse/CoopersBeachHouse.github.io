@@ -1,0 +1,170 @@
+/*
+ * The css for the slideshow
+ */
+
+#slideshowContainer {
+    background: transparent;
+}
+
+#slideshow {
+    position: relative;
+    margin: 2px auto 0 auto;
+    padding: 10px;
+    overflow: hidden;
+
+    background: white;
+}
+
+#slideshowImages {
+    position: relative;
+    width: 100%;
+    padding-bottom: 66.66%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.slideshow-item {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+}
+
+.slideshow-item:not(.current) {
+    margin-left: 100%;
+}
+
+.slideshow-item img {
+    height: 100%;
+}
+
+#slideshowControls {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+}
+
+.slideshow-control {
+    z-index: 100;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 25px;
+    color: white;
+    user-select: none;
+}
+
+#slideshowPrevNext {
+    /*position: relative;
+    height: 100%;*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+}
+
+#slideshowPrev {
+    left: 10px;
+    opacity: 0;
+    cursor: default;
+    transition: opacity 0.5s linear;
+}
+
+#slideshowNext {
+    right: 10px;
+    transition: opacity 0.5s linear;
+}
+
+#slideshowSelector {
+    margin-top: 8px;
+    display: flex;
+    flex-flow: row nowrap;
+    overflow-x: auto;
+
+    /* Firefox Scrollbar*/
+    scrollbar-color: #e1e1e1 #353535;
+}
+
+#slideshowSelector::-webkit-scrollbar {
+    background: #353535;
+    height: 1.5vh;
+    border-radius: 0.75vh;
+}
+
+#slideshowSelector::-webkit-scrollbar-thumb {
+    background: #e1e1e1;
+    border-radius: 0.75vh;
+}
+
+#slideshowSelector img {
+    height: 4vw;
+    margin: 2px 2px 5px 2px;
+}
+
+#slideshowSelector img.selected {
+    border: #414141 2px solid;
+    margin: 0 0 3px 0;
+}
+
+#slideshowSelector img:hover {
+    border: black 2px solid;
+    margin: 0 0 3px 0;
+}
+
+#slideshow .slide-in-from-left {
+    animation: slideinfromleft 0.5s ease-in-out;
+}
+
+#slideshow .slide-in-from-right {
+    animation: slideinfromright 0.5s ease-in-out;
+}
+
+#slideshow .slide-out-to-left {
+    animation: slideouttoleft 0.5s ease-in-out;
+}
+
+#slideshow .slide-out-to-right {
+    animation: slideouttoright 0.5s ease-in-out;
+}
+
+@keyframes slideinfromleft {
+    from {
+        margin-left: -100%;
+    }
+    to {
+        margin-left: 0;
+    }
+}
+
+@keyframes slideinfromright {
+    from {
+        margin-left: 100%;
+    }
+    to {
+        margin-left: 0;
+    }
+}
+
+@keyframes slideouttoleft {
+    from {
+        margin-left: 0;
+    }
+    to {
+        margin-left: -100%;
+    }
+}
+
+@keyframes slideouttoright {
+    from {
+        margin-left: 0;
+    }
+    to {
+        margin-left: 100%;
+    }
+}

@@ -1,0 +1,79 @@
+@media only screen and (max-width: 1920px) {
+    body {
+        --divider01: url("../img/divider/01-1920.jpg");
+        --divider02: url("../img/divider/02-1920.jpg");
+        --divider03: url("../img/divider/03-1920.jpg");
+        --divider04: url("../img/divider/04-1920.jpg");
+        --divider05: url("../img/divider/05-1920.jpg");
+        --divider06: url("../img/divider/06-1920.jpg");
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    body {
+        --divider01: url("../img/divider/01-1000.jpg");
+        --divider02: url("../img/divider/02-1000.jpg");
+        --divider03: url("../img/divider/03-1000.jpg");
+        --divider04: url("../img/divider/04-1000.jpg");
+        --divider05: url("../img/divider/05-1000.jpg");
+        --divider06: url("../img/divider/06-1000.jpg");
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        --divider01: url("../img/divider/01-500.jpg");
+        --divider02: url("../img/divider/02-500.jpg");
+        --divider03: url("../img/divider/03-500.jpg");
+        --divider04: url("../img/divider/04-500.jpg");
+        --divider05: url("../img/divider/05-500.jpg");
+        --divider06: url("../img/divider/06-500.jpg");
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    body {
+        --divider01: url("../img/divider/01-400.jpg");
+        --divider02: url("../img/divider/02-400.jpg");
+        --divider03: url("../img/divider/03-400.jpg");
+        --divider04: url("../img/divider/04-400.jpg");
+        --divider05: url("../img/divider/05-400.jpg");
+        --divider06: url("../img/divider/06-400.jpg");
+    }
+}
+
+.divider.first {
+    background: var(--divider01) no-repeat fixed;
+    background-size: auto 100%;
+    background-clip: border-box;
+}
+
+.divider.second {
+    background: var(--divider02) no-repeat fixed;
+    background-size: auto 100%;
+    background-clip: border-box;
+}
+
+.divider.third {
+    background: var(--divider03) no-repeat fixed;
+    background-size: auto 100%;
+    background-clip: border-box;
+}
+
+.divider.fourth {
+    background: var(--divider04) no-repeat fixed;
+    background-size: auto 100%;
+    background-clip: border-box;
+}
+
+.divider.fifth {
+    background: var(--divider05) no-repeat fixed right 0 top 30vh;
+    background-size: auto 100%;
+    background-clip: border-box;
+}
+
+.divider.sixth {
+    background: var(--divider06) no-repeat fixed;
+    background-size: auto 100%;
+    background-clip: border-box;
+}
