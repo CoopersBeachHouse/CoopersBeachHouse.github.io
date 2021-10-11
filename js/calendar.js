@@ -9,7 +9,7 @@ const blocked = [];
 
 const nextMonths = [];
 
-const maxPreviewMonths = 15;
+const maxPreviewMonths = 18;
 
 let calendarParents, select, prev, next, selectedMonth, selectedYear;
 
